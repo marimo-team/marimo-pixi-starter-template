@@ -1,0 +1,17 @@
+exclude: (^.pixi/|.snap)
+repos:
+  - repo: local
+    hooks:
+      - id: trailing-whitespace
+        name: Fix trailing whitespace
+        entry: pixi run trailing-whitespace-fixer
+        language: system
+        types: [text]
+        stages: [pre-commit, manual]
+      - id: ruff
+        name: Ruff lint
+        entry: pixi run lint
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
+        stages: [pre-commit, manual]
