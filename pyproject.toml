@@ -16,7 +16,7 @@ pre-commit = ">=4.1.0,<5"
 pre-commit-hooks = ">=4.6.0,<5"
 pytest = ">=8.3.4,<9"
 ruff = ">=0.9.3,<0.10"
-marimo = ">=0.10.17,<0.11"
+marimo = ">=0.12.5,<0.13"
 
 [tool.pixi.tasks]
 edit = "marimo edit src/app.py"
