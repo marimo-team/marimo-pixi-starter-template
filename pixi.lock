@@ -39,7 +39,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/linux-64/libstdcxx-14.2.0-hc0a3c3a_1.conda
       - conda: https://prefix.dev/conda-forge/linux-64/libuuid-2.38.1-h0b41bf4_0.conda
       - conda: https://prefix.dev/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
-      - conda: https://prefix.dev/conda-forge/linux-64/marimo-0.12.5-py313hf741a19_0.conda
+      - conda: https://prefix.dev/conda-forge/linux-64/marimo-0.13.0-py313hf741a19_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/markdown-3.6-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/narwhals-1.24.1-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
@@ -105,7 +105,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-64/libmpdec-4.0.0-hfdf4475_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libsqlite-3.48.0-hdb6dae5_1.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libzlib-1.3.1-hd23fc13_2.conda
-      - conda: https://prefix.dev/conda-forge/osx-64/marimo-0.12.5-py313hb2882bb_0.conda
+      - conda: https://prefix.dev/conda-forge/osx-64/marimo-0.13.0-py313hb2882bb_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/markdown-3.6-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/narwhals-1.24.1-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/ncurses-6.5-h0622a9a_3.conda
@@ -171,7 +171,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-arm64/libmpdec-4.0.0-h99b78c6_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libsqlite-3.48.0-h3f77e49_1.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
-      - conda: https://prefix.dev/conda-forge/osx-arm64/marimo-0.12.5-py313h8542ed2_0.conda
+      - conda: https://prefix.dev/conda-forge/osx-arm64/marimo-0.13.0-py313h8542ed2_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/markdown-3.6-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/narwhals-1.24.1-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
@@ -236,7 +236,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-h2466b09_0.conda
       - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.48.0-h67fdade_1.conda
       - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.1-h2466b09_2.conda
-      - conda: https://prefix.dev/conda-forge/win-64/marimo-0.12.5-py313h1dbbc4f_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/marimo-0.13.0-py313h1dbbc4f_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/markdown-3.6-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/narwhals-1.24.1-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/nodeenv-1.9.1-pyhd8ed1ab_1.conda
@@ -977,9 +977,9 @@ packages:
   purls: []
   size: 55476
   timestamp: 1727963768015
-- conda: https://prefix.dev/conda-forge/linux-64/marimo-0.12.5-py313hf741a19_0.conda
-  sha256: 8e1a944c14653b6186c5b0fe03881ff6410b1f05afed6f024a72743a5f970bf5
-  md5: 2161fe994fa9a4109776d0ea5ed4d723
+- conda: https://prefix.dev/conda-forge/linux-64/marimo-0.13.0-py313hf741a19_0.conda
+  sha256: 1a43b132c3b2841c227fc09a21307332b5529abf2a7c0b9ab315934f7f584072
+  md5: 3403dc069a83217e79d9f8ec608b8af9
   depends:
   - python
   - click >=8.0,<9
@@ -1003,11 +1003,11 @@ packages:
   license: Apache-2.0
   purls:
   - pkg:pypi/marimo?source=hash-mapping
-  size: 7305622
-  timestamp: 1744103892373
-- conda: https://prefix.dev/conda-forge/osx-64/marimo-0.12.5-py313hb2882bb_0.conda
-  sha256: 52cb72cb169b9224564bb6a4e9e084c8a0a007d2f448ada6b08d456f602a0f29
-  md5: adaabc6b8c081e17aac57f689d007faf
+  size: 7347546
+  timestamp: 1745034362385
+- conda: https://prefix.dev/conda-forge/osx-64/marimo-0.13.0-py313hb2882bb_0.conda
+  sha256: f80a4ba12c2cc513f022f676b8b4c98e7c2808b622d4a3c41e6215663845aba2
+  md5: bc4fd885624f07a0c23c96f368839fa4
   depends:
   - python
   - click >=8.0,<9
@@ -1031,11 +1031,11 @@ packages:
   license: Apache-2.0
   purls:
   - pkg:pypi/marimo?source=hash-mapping
-  size: 7304755
-  timestamp: 1744103943819
-- conda: https://prefix.dev/conda-forge/osx-arm64/marimo-0.12.5-py313h8542ed2_0.conda
-  sha256: 700f5ba724a595285deaa6dc9e2c542b7cc40ad8b1c2d5b34bd3a448fab2387f
-  md5: 11b7e483799b77055a874ca865e4c4d7
+  size: 7346715
+  timestamp: 1745034393489
+- conda: https://prefix.dev/conda-forge/osx-arm64/marimo-0.13.0-py313h8542ed2_0.conda
+  sha256: 81e356ac5056f11b6c8fc77717e8848ce16ec63ce10db49e58fc6579e5427a76
+  md5: e57ac898fcb949f4c2f66af1677122f9
   depends:
   - python
   - click >=8.0,<9
@@ -1060,11 +1060,11 @@ packages:
   license: Apache-2.0
   purls:
   - pkg:pypi/marimo?source=hash-mapping
-  size: 7310657
-  timestamp: 1744103995665
-- conda: https://prefix.dev/conda-forge/win-64/marimo-0.12.5-py313h1dbbc4f_0.conda
-  sha256: 4ba5af7fecdb7a2db5e18888227238069d8f041a5b970922dd68ed4af8a69e6d
-  md5: 748fa5b5bb3bbb955b2659e8fd2902bd
+  size: 7352680
+  timestamp: 1745034401405
+- conda: https://prefix.dev/conda-forge/win-64/marimo-0.13.0-py313h1dbbc4f_0.conda
+  sha256: 7ecf6cb746a944ad84a8ad9df2cd08b99afacf9c795f20de4e7b7aaf40f5e184
+  md5: 2ec660dde310274418fc491a98586323
   depends:
   - python
   - click >=8.0,<9
@@ -1088,12 +1088,12 @@ packages:
   license: Apache-2.0
   purls:
   - pkg:pypi/marimo?source=hash-mapping
-  size: 7348127
-  timestamp: 1744103939124
+  size: 7395978
+  timestamp: 1745034368994
 - pypi: .
   name: marimo-template
   version: 0.1.0
-  sha256: 4c7545e12914d30ff878956ebd152582d21a0c626c67ea83bdc21dd1e3332ab8
+  sha256: 928f4c444a422bc8896485cc3e6dd1f044d4c5c40b0f85e0cf9b3659674c2e56
   requires_python: '>=3.12'
   editable: true
 - conda: https://prefix.dev/conda-forge/noarch/markdown-3.6-pyhd8ed1ab_0.conda
