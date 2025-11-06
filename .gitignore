@@ -18,3 +18,7 @@ wheels/
 # pixi environments
 .pixi
 *.egg-info
+
+# Marimo-generated files
+**/__marimo__/session/
+**/__marimo__/cache/
