@@ -13,7 +13,7 @@ marimo-template = { path = ".", editable = true }
 
 [tool.pixi.dependencies]
 pre-commit = ">=4.1.0,<5"
-pre-commit-hooks = ">=5,<6"
+pre-commit-hooks = ">=6,<7"
 pytest = ">=9,<10"
 ruff = ">=0.15,<0.16"
 marimo = ">=0.23.6,<0.24"
